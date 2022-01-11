@@ -1,0 +1,18 @@
+{
+  "maxDailyCharge": 60,
+  "tollFreeDays": {
+    "description": "<describe rules here to give context to user - assuming user is using cms to update values>",
+    "dow": ["Sat", "Sun"],
+    "months": ["Jul"],
+    "publicHolidays": [
+      { "date": "2021-04-02", "description": "Good Friday" },
+      { "date": "2021-04-05", "description": "Easter Monday" }
+    ],
+    "publicHolidayEve": 1
+  },
+  "tollFreeVehicles": ["emergency", "bus", "diplomat", "motorcycle", "military", "foreign"],
+  "singleCharge": {
+    "timeThreshold": 60,
+    "type": "max"
+  }
+}
